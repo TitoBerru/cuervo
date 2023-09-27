@@ -1245,9 +1245,9 @@ footer .contact-form button.filled-button:hover {
 	.logo_header{
 		width: 19vw;
 		margin-top: 0;
-		margin-left: 0;
-		height: 10vh;
-		/* border: 5px solid red; */
+		margin-left: 1vw;
+		height: 9vh;
+		opacity: 1;
 	}
 	.sub-header {
 		display: none;
