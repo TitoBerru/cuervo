@@ -1243,9 +1243,10 @@ footer .contact-form button.filled-button:hover {
 /* Responsive Style */
 @media (max-width: 768px) {
 	.logo_header{
-		width: 13vw;
+		width: 19vw;
 		margin-top: 0;
 		margin-left: 0;
+		height: 10vh;
 		/* border: 5px solid red; */
 	}
 	.sub-header {
