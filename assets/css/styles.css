@@ -241,8 +241,9 @@ header .navbar {
 	padding: 20px 0px;
 }
 .logo_header{
-	width: 9vw;
-	opacity: 0.6;
+	position: relative;
+	width: 18vw;
+	opacity: 1;
 	height: 13.5vh;
 	/* border: 5px solid red; */
 	margin-left: -1vh;
@@ -1361,13 +1362,15 @@ footer .contact-form button.filled-button:hover {
 	}
 	.logo-text{
 		/* position: absolute; */
-		/* font-family: 'futura DC';
+		font-family: 'futura DC';
 		color: #034AA6;
-		display: inline;
-		padding: 82px; 
-		font-size: 1rem;
-		margin-right: 10px; */
-		display: none;
+		/* display: inline; */
+		/* padding: 5px;  */
+		font-size: 1.4rem;
+		/* margin-right: 10px;  */
+		/* display: none; */
+		
+		display: contents;
 	}
 	.container{
 		display: flex;
