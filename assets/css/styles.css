@@ -1359,4 +1359,18 @@ footer .contact-form button.filled-button:hover {
 		color: #034AA6!important;
 		border-bottom: none!important;
 	}
+	.logo-text{
+		/* position: absolute; */
+		/* font-family: 'futura DC';
+		color: #034AA6;
+		display: inline;
+		padding: 82px; 
+		font-size: 1rem;
+		margin-right: 10px; */
+		display: none;
+	}
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
 }

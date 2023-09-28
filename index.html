@@ -35,7 +35,9 @@
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
+          
           <img src="./assets/images/logo_apaisado.PNG" alt="" sizes="" srcset="" class="logo_header">
+          <span class="logo-text">Asistencia Integral de Sepelios</span>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -452,11 +454,23 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
-    <!-- <script src="assets/js/jquery.singlePageNav.min.js"></script> -->
+    <script src="assets/js/jquery.singlePageNav.min.js"></script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/owl.js"></script>
     <script src="assets/js/slick.js"></script>
-    <!-- <script src="assets/js/accordions.js"></script> -->
+    <script src="assets/js/accordions.js"></script>
    
+    <script> //Close the hamburg button on mobile desktop
+      $(function() {
+        // Single Page Nav
+        $('#navbarResponsive').singlePageNav({
+          'offset': 100,
+          'filter': ':not(.external)'
+        });
+        $('#navbarResponsive .navbar-nav .nav-item .nav-link').click(function(){
+          $('#navbarResponsive').removeClass('show');
+        });
+      });
+    </script>
   </body>
 </html>
