@@ -242,7 +242,7 @@ header .navbar {
 }
 .logo_header{
 	position: relative;
-	width: 18vw;
+	/* width: 18vw; */
 	opacity: 1;
 	height: 13.5vh;
 	/* border: 5px solid red; */
@@ -1066,7 +1066,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 
-.page-heading {
+/* .page-heading {
 	text-align: center;
 	background-image: url(../images/page-heading-bg.jpg);
 	background-position: center center;
@@ -1074,7 +1074,7 @@ footer .contact-form button.filled-button:hover {
 	background-size: cover;
 	padding: 230px 0px 150px 0px;
 	color: #fff;
-}
+} */
 
 .page-heading h1 {
 	text-transform: capitalize;
@@ -1242,11 +1242,11 @@ footer .contact-form button.filled-button:hover {
 
 
 /* Responsive Style */
-@media (max-width: 768px) {
+@media (360px <= width <= 768px) {
 	.logo_header{
-		width: 19vw;
+		/* width: 19vw;
 		margin-top: 0;
-		margin-left: 1vw;
+		margin-left: 1vw; */
 		height: 9vh;
 		opacity: 1;
 	}
@@ -1318,9 +1318,26 @@ footer .contact-form button.filled-button:hover {
 	.contact-item {
 		margin-bottom: 30px;
 	}
+	.logo-text{
+		/* position: absolute; */
+		font-family: 'futura DC';
+		color: #034AA6;
+		/* display: inline; */
+		/* padding: 5px;  */
+		font-size: 1.4rem;
+		/* margin-right: 10px;  */
+		/* display: none; */
+		/* border: 5px solid red; */
+		/* display: none; */
+	}
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+	
 }
 
-@media (max-width: 992px) {
+@media (769px <=width <= 992px) {
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 30px;
@@ -1366,14 +1383,44 @@ footer .contact-form button.filled-button:hover {
 		color: #034AA6;
 		/* display: inline; */
 		/* padding: 5px;  */
-		font-size: 1.4rem;
+		font-size: 2rem;
 		/* margin-right: 10px;  */
 		/* display: none; */
-		
-		display: contents;
+		/* border: 5px solid red; */
+		margin-left: 10vh;
 	}
 	.container{
-		display: flex;
-		flex-direction: column;
+		/* display: flex; */
+		/* flex-direction: column; */
+		/* align-items: center; */
+		justify-content: flex-start !important;
 	}
+}
+@media (width >= 993px ){
+	.logo_header{
+		/* width: 190px; */
+		margin-left: -15vh;
+		margin-top: -13px;
+	
+	}
+	.logo-text{
+		position: absolute;
+		font-family: 'futura DC';
+		color: #034AA6;
+		padding: 20px;
+		/* margin-top: 19vh; */
+		/* margin-left: 3vh; */
+		/* display: inline; */
+		/* padding: 5px;  */
+		font-size:1.8rem;
+		/* margin-right: 10px;  */
+		margin-top: 9vh;
+		margin-left: 4.9vw;
+		
+		/* border: 5px solid red; */
+	}
+	.title-item{
+		display: none;
+	}
+	
 }
