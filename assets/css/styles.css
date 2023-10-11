@@ -573,8 +573,12 @@ ul.slick-dots {
 /* Services */
 
 .services {
-	margin-top: 140px;
-}
+	margin-top: 50px;
+	/* background-image: url(./../images/logo_transparente.png);
+	background-repeat: no-repeat;
+	background-size:cover; */
+
+} 
 
 .service-item img {
 	width: 100%;
@@ -612,23 +616,7 @@ ul.slick-dots {
 	/* border: 15px solid red; */
 }
 
-/* Images flota */
 
-.img_auto{
-	/* max-height: 100%; */
-	margin: 1px;
-	padding: 1px;
-	opacity: 0.8;
-	border-radius: 20px;
-	transition: all 300ms;
-	overflow:hidden;
-}
-.img_auto:hover{
- -webkit-transform:scale(1.5);
- transform:scale(1.5);
- z-index: 1;
-opacity: 1;
-}
 /* Fun Facts */
 
 .fun-facts {
@@ -690,13 +678,93 @@ opacity: 1;
     color: #fff;
     letter-spacing: 0.5px;
 }
+.iraola{
+	margin-top: 70px;
+	padding: 5px;
+}
 
+/* Images flota */
+.img_auto{
+	/* max-height: 100%; */
+	margin: 1px;
+	padding: 1px;
+	opacity: 0.8;
+	border-radius: 20px;
+	transition: all 300ms;
+	overflow:hidden;
+	width: 50%;
+	width: 150px;
+	height: 150px;
+}
+.img_auto:hover{
+ -webkit-transform:scale(2.5);
+ transform:scale(2.5);
+ z-index: 1;
+opacity: 1;
+}
+/* VELATORIOS */
+.velatorio{
+	display: flex;
+	/* width: 400%;
+	height: 70%; */
+}
+.velatorio_auto_main{
+
+	
+	
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+
+}
+.flota_auto{
+	/* background-color: #0df053; */
+	height: 35vw;
+	padding: 50px;
+	/* Box shadows? */
+	/* box-shadow: 0 0 20px 0 rgb(255 255 255 / 30%);
+    background: rgba(220, 220, 226, 0.4);
+    padding: 1em;
+    color:rgb(243, 144, 15); */
+	/* opacity: 0.8; */
+	/* end box shadows */
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+.flota_velatorio{
+	height: 35vw;
+	padding: 50px;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	background-color: #f7f7f7;
+}
+.img_velatorio{
+	
+	/* max-height: 100%; */
+	margin: 1px;
+	padding: 1px;
+	opacity: 0.8;
+	border-radius: 20px;
+	transition: all 300ms;
+	overflow:hidden;
+	width: 150px;
+	height: 150px;
+
+}
+.img_velatorio:hover{
+ -webkit-transform:scale(2.5);
+ transform:scale(2.5);
+ z-index: 1;
+opacity: 1;
+}
 
 
 /* More Info */
 
 .more-info {
-	margin-top: 140px;
+	margin-top: 30px;
+	background-color: #f7f7f7;
+	padding-top: 50PX;
 }
 
 .more-info .left-image img {
@@ -915,15 +983,26 @@ opacity: 1;
 
 .ex_owl-partners{
 	display: flex;
-	/* width: 95vw; */
-	margin-left: auto, important!
+	width: 95vw;
+	margin-left: auto;
 }
 .text_ex_owl-carousel{
 	/* border: 5px solid red; */
 	display: flex;
 	justify-content: center;
 }
-
+.another_services{
+	
+	height: 30vh;
+	width: 100vw;
+	background-color: #f7f7f7;
+}
+.banner_logos_parques{
+	/* height: 35vw; */
+	padding: 50px;
+	margin-top: 45PX;
+	background: #ededed;
+}
 
 /* Partners Style */
 
@@ -1440,10 +1519,94 @@ footer .contact-form button.filled-button:hover {
 		display: flex;
 		flex-direction: column;
 	}
+
+
+
+
+
+	/* Images flota */
+.img_auto{
+	/* max-height: 100%; */
+	margin: 1px;
+	padding: 1px;
+	opacity: 1;
+	border-radius: 20px;
+	transition: all 300ms;
+	/* overflow:hidden; */
+	/* width: 50%; */
+	width: 100%;
+	height: 65vw;
+}
+.img_auto:hover{
+ -webkit-transform:scale(1);
+ transform:scale(1);
+ z-index: 1;
+opacity: 1;
+}
+/* VELATORIOS */
+.velatorio{
+	display: flex;
+	/* width: 400%;
+	height: 70%; */
+}
+.velatorio_auto_main{
+
+	display: flex;
+	/* align-items: center; */
+	flex-direction: column;
+	/* justify-content:space-evenly; */
+
+}
+.flota_auto{
+	/* background-color: #0df053; */
+	/* height: 35vw;
+	padding: 50px; */
+	/* Box shadows? */
+	/* box-shadow: 0 0 20px 0 rgb(255 255 255 / 30%);
+    background: rgba(220, 220, 226, 0.4);
+    padding: 1em;
+    color:rgb(243, 144, 15); */
+	/* opacity: 0.8; */
+	/* end box shadows */
+	margin-top: 5vh;
+	margin-bottom: 410vw;
+}
+.flota_velatorio{
+	height: 5vw;
+	padding: 50px;
+	margin-top: 5vh;
+	margin-bottom: 410vw;
+	/* background-color: #f7f7f7; */
+}
+.img_velatorio{
 	
+	/* max-height: 100%; */
+	margin: 1px;
+	padding: 1px;
+	opacity: 1;
+	border-radius: 20px;
+	transition: all 300ms;
+	/* overflow:hidden; */
+	width: 75vw;
+	height: 55vw;
+
+}
+.img_velatorio:hover{
+ -webkit-transform:scale(1);
+ transform:scale(1); 
+ z-index: 1;
+opacity: 1;
+}
 }
 
 @media (769px <=width <= 992px) {
+	.flota_velatorio{
+		height: 5vw;
+		padding: 50px;
+		margin-top: 15vw;
+		margin-bottom: 45vw;
+		/* background-color: #f7f7f7; */
+	}
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 30px;
@@ -1505,7 +1668,7 @@ footer .contact-form button.filled-button:hover {
 @media (width >= 993px ){
 	.logo_header{
 		/* width: 190px; */
-		margin-left: -15vh;
+		margin-left: -12vw;
 		margin-top: -13px;
 	
 	}
@@ -1521,7 +1684,7 @@ footer .contact-form button.filled-button:hover {
 		font-size:1.8rem;
 		/* margin-right: 10px;  */
 		margin-top: 9vh;
-		margin-left: 4.9vw;
+		margin-left: -3vw;
 		
 		/* border: 5px solid red; */
 	}
