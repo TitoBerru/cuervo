@@ -239,8 +239,8 @@ header {
 }
 header .navbar {
 	padding: 20px 0px;
-	box-shadow: 0 0 20px 0 rgba(248, 253, 147, 0.3);
-    background: rgba(35, 35, 35, 0.4);
+	box-shadow: 0 0 20px 0 rgba(46, 12, 240, 0.975);
+    background: rgba(131, 131, 248, 0.965);
     /* padding: 1em; */
     color:antiquewhite;
 }
@@ -402,7 +402,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/slide_03.jpg);
 }
 
 .Modern-Slider .item-2 .img-fill {
@@ -410,7 +410,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-3 .img-fill {
-	background-image: url(../images/slide_03.jpg);
+	background-image: url(../images/slide_01.jpg);
 }
 
 .Modern-Slider .NextArrow{
@@ -1432,6 +1432,22 @@ footer .contact-form button.filled-button:hover {
 		height: 9vh;
 		opacity: 1;
 	}
+	.logo-text{
+		position:absolute;
+		top:50px;
+		left: 22vw;
+
+		font-family: 'futura DC';
+		color: #034AA6;
+		/* display: inline; */
+		padding: 5px; 
+		font-size: 1.1rem;
+		/* margin-right: 10px;  */
+		/* display: none; */
+		/* border: 5px solid red; */
+		/* display: none; */
+		/* margin-left: 100px; */
+	}
 	.sub-header {
 		display: none;
 	}
@@ -1500,22 +1516,7 @@ footer .contact-form button.filled-button:hover {
 	.contact-item {
 		margin-bottom: 30px;
 	}
-	.logo-text{
-		position:relative;
-		top:10px;
-		right: 115px;
-
-		font-family: 'futura DC';
-		color: #034AA6;
-		/* display: inline; */
-		padding: 5px; 
-		font-size: 1.1rem;
-		/* margin-right: 10px;  */
-		/* display: none; */
-		/* border: 5px solid red; */
-		/* display: none; */
-		/* margin-left: 100px; */
-	}
+	
 	.container{
 		display: flex;
 		flex-direction: row;
