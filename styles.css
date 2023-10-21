@@ -1,0 +1,98 @@
+/* colores
+
+color: #034AA6;
+*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+header .navbar {
+    box-shadow: 0 0 20px 0 rgba(46, 12, 240, 0.975);
+    background: #d2f1ff!important;
+
+}
+.logo-text{
+        color:  #034AA6;
+        font-weight: 900;
+}
+.carousel-text{
+        height: auto;
+        box-shadow: 0 0 20px 0 rgb(255 255 255 / 30%);
+        background: rgba(0,0,0,.4);
+        padding: 1em;
+        color:antiquewhite;
+    
+}
+.banner{
+    display: flex;
+    height: 30vh;
+    background-color: #0065ff;
+    align-items: center;
+    opacity: 0.85;
+    /* justify-items: auto; */
+    padding: 20px;
+    justify-content: space-around;
+}
+
+
+/************************* MEDIA QUERIES *****************************/
+@media (width <= 575px){
+    
+    .logo_header{
+        /* width: 3rem;
+        height: 3rem; */
+        width: 15vw;
+        height: 10vh;
+    }
+    .img-fluid{
+        height: 80vh!important;
+    }
+    .logo-text{
+        /* border: 5px solid red; */
+        font-size: 3vw;
+    }
+    .carousel-text{
+        padding: 0.5em;
+    }
+    .carousel p{
+        font-size: 1.2em;
+    }
+    .btn_contact_us{
+        border: 1px solid wheat!important;
+        margin-right: 16px;
+    }
+
+}
+@media (576px <=width <= 768px){
+    .logo-text{
+        /* border: 5px solid rgb(17, 0, 255); */
+        font-size: 3vw;
+    }
+    .img-fluid{
+        height: 80vh!important;
+    }
+    
+}
+
+
+@media (769px <=width <= 992px){
+    .logo-text{
+        font-size: 3vw;
+        border: 5px solid rgb(66, 64, 64);
+    }
+    .carousel-text{
+        top: 150px;
+    }
+      
+    
+}
+@media (width >= 993px ){
+    .logo-text{
+        border: 5px solid rgb(130, 204, 238);
+    }
+   
+}
